@@ -15,10 +15,10 @@ with open(file_to_load) as election_data:
     # Read the file object with the reader function.
     file_reader = csv.reader(election_data)
 
-    # Print each row in the CSV file.
-    for row in file_reader:
-        print(row)
-        
+    # Print the header row.
+    headers = next(file_reader)
+    print(headers)
+
 # 1.3.1 Open the file
    
     # Write three counties to the file.
