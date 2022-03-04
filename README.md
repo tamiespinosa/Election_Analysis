@@ -59,20 +59,21 @@ The code used to evaluate the votes gathered a list of candidates and counties w
 
 In our data, the county and the candidate were the second and third column in our data respectively. As the computer passes through each row, it is evaluating the second item on the row as the county_name and the third item on the row as the candidate_name, as seen in the code below.  If this code was to be used for a similar election the order of the columns, in a new data set, would have to be inspected. The indexes used to evaluate candidate_name and county_name would have tp be updated accordingly. 
 
+
 ...
 
-   candidate_name = row[2]
-   county_name =row[1]
-
+        candidate_name = row[2]
+        county_name =row[1]
+       
 ...
 
 Additionally, the file paths for the input and output files would need to be updated. In out case our input is the file_to_load, and the output is the file_to_save. The file names and folders where those are located would need to be updated for a new data set.  
 
 ...
 
-   file_to_load = os.path.join("Resources", "election_results.csv")
-   file_to_save = os.path.join("analysis", "election_analysis.txt")
-
+        file_to_load = os.path.join("Resources", "election_results.csv")
+        file_to_save = os.path.join("analysis", "election_analysis.txt")
+       
 ...
 
 ## <a name="Resources"></a>Resources
