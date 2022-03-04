@@ -29,9 +29,27 @@ This audit needs to produce:
   
 ## <a name="Results"></a>Results
 
+In this election a total of 369,711 votes were counted.  
+
 ### <a name="countyresults"></a>Results by County
 
+The votes counted came from three counties in Colorado, as seen in the table below. Of those the county with the largest turnout was Denver.  
+
+**County**|**Total Votes**|**Percentage**|
+ --- |---|---|
+ Denver    | 306,055       | 82.5%        |
+ Jefferson | 38,855        | 10.5%        |
+ Arapahoe  | 24,801        | 6.7%         |
+ 
 ### <a name="candidateresults"></a>Results by Candidate
+
+The candidates that received votes from those three counties are shown in the table below. Diana DeGette received 73.8% of the votes, making her the winner of the popular vote. 
+
+**Candidate**|**Total Votes**|**Percentage**|
+ --- |---|---|
+ Diana DeGette            | 272,892       | 73.8%        |
+ Charles Spencer Stockham | 85,213        | 23.0%        |
+ Raymon Anthony Doanne    | 11,606        | 3.1%         |
 
 ## <a name="Summary"></a>Election Audit Summary
 
