@@ -12,7 +12,7 @@
  
 ## <a name="OverviewProject"></a>Overview of Project
 
-An employee for the Colorado Board of Directors is looking to audit and certify a recent congrassional election for the state. We were given a file with the voter ID, County were the vote was casted, and the candidate selected for 369.711 votes. A report with the Election Analysis was generated.   
+An employee for the Colorado Board of Directors is looking to audit and certify a recent congrassional election for the state. We were given a file with the voter ID, County were the vote was casted, and the candidate selected for 369.711 votes [[2]](#2). A report with the Election Analysis was generated [[1]](#1).   
 
 ### <a name="purpose"></a>Purpose
 
@@ -29,7 +29,7 @@ This audit needs to produce:
   
 ## <a name="Results"></a>Results
 
-The results of this election are as follow. To verify the information provided, access the Election Analysis. 
+The results of this election are as follow. To verify the information provided, access the Election Analysis [[1]](#1). 
 
 * In this election a total of 369,711 votes were counted.  
 
@@ -55,9 +55,9 @@ The results of this election are as follow. To verify the information provided, 
 
 ## <a name="Summary"></a>Election Audit Summary
 
-The code used to evaluate the votes gathered a list of candidates and counties when iterating through each vote. Afterwards the code counted the votes per candidate and county name. In other words, the candidates and counties names were not hard coded, making this code usable for other elections. 
+The code used to evaluate the votes gathered a list of candidates and counties when iterating through each vote [[3]](#3). Afterwards the code counted the votes per candidate and county name. In other words, the candidates and counties names were not hard coded, making this code usable for other elections. 
 
-In our data, the county and the candidate were the second and third column in our data respectively. As the computer passes through each row, it is evaluating the second item on the row as the county_name and the third item on the row as the candidate_name, as seen in the code below.  If this code was to be used for a similar election the order of the columns, in a new data set, would have to be inspected. The indexes used to evaluate candidate_name and county_name would have tp be updated accordingly. 
+In our data, the county and the candidate were the second and third column in our data respectively [[2]](#2). As the computer passes through each row, it is evaluating the second item on the row as the county_name and the third item on the row as the candidate_name, as seen in the code below.  If this code was to be used for a similar election the order of the columns, in a new data set, would have to be inspected. The indexes used to evaluate candidate_name and county_name would have tp be updated accordingly. 
 
 
 ...
@@ -67,7 +67,7 @@ In our data, the county and the candidate were the second and third column in ou
        
 ...
 
-Additionally, the file paths for the input and output files would need to be updated. In out case our input is the file_to_load, and the output is the file_to_save. The file names and folders where those are located would need to be updated for a new data set.  
+Additionally, the file paths for the input and output files would need to be updated. In our case our input is the file_to_load, and the output is the file_to_save. The file names and folders where those are located would need to be updated for a new data set.  
 
 ...
 
@@ -77,3 +77,13 @@ Additionally, the file paths for the input and output files would need to be upd
 ...
 
 ## <a name="Resources"></a>Resources
+
+<a name="1">[1]</a> [Election Analysis](https://github.com/tamiespinosa/Election_Analysis/blob/217eb4e9aa80e143453b3aec9513f506d33aaa7c/analysis/election_analysis.txt)
+
+<a name="2">[2]</a> [Election Results](https://github.com/tamiespinosa/Election_Analysis/blob/217eb4e9aa80e143453b3aec9513f506d33aaa7c/Resources/election_results.csv)
+
+<a name="3">[3]</a> [Code Used](https://github.com/tamiespinosa/Election_Analysis/blob/217eb4e9aa80e143453b3aec9513f506d33aaa7c/PyPoll_Challenge.py)
+
+[4] https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+[5] https://stackoverflow.com/questions/39378020/how-to-display-table-in-readme-md-file-in-github
