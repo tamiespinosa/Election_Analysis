@@ -4,8 +4,6 @@
 - [Overview of Project](#OverviewProject)
   * [Purpose](#purpose)
 - [Results](#Results)
-  * [Results by County](#countyresults)
-  * [Results by Candidate](#candidateresults)
 - [Election Audit Summary](#Summary)
 - [Resources](#Resources)
 
