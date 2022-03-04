@@ -1,4 +1,4 @@
-# Election_Analysis
+# Election Analysis
 
 ## Table of Contents
 - [Overview of Project](#OverviewProject)
